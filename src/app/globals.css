@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.information {
+  background-image: linear-gradient(to right, rgba(23, 107, 135, 1), rgba(23, 107, 135, 0.8));
+}
+
+.join {
+  background-color: rgba(240, 242, 244, 0.9);
+}
+
+.whishlist {
+  background-image: linear-gradient(to right, rgba(240, 242, 244, 1), rgba(240, 242, 244, 0.8));
+}
+
+.sliderImg {
+  transition-delay: 0.5s;
+}
+
+.service_text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(210, 212, 213, 1);
+}
+
+.react-responsive-modal-closeButton{
+  display: none !important;
+}
+.react-responsive-modal-modal{
+  border-radius: 24px !important;
+}
+
+.custom-item-class {
+  padding: 0 !important; /* Remove padding */
+}
+
+
+@media only screen and (min-width: 430px){
+  .mobile_hero{
+      margin-left: 18px;
+  }
+}
